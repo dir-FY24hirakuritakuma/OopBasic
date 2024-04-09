@@ -17,7 +17,7 @@ public class Enginer extends Employee{
     
     @Override
     public void joinMeeting(){
-    super.joinMeeting();
+    department.meeting();
     System.out.println("→技術的な準備を行い、上記の会議に参加します。名前：" + name);
 
 } 
